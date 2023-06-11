@@ -12,27 +12,29 @@ This repository contains the codebase, presentation and report for the Cluj Napo
 - **Static**: Contains all the figures saved in making the presentation and the report.
 
 ### Usage
-To use this codebase, you can clone this repository and run the scripts in the Scripts folder. The EDA_predict_LSTM.ipynb notebook contains the code for exploratory data analysis and LSTM training/prediction, while the predict_autoformer.ipynb notebook contains the code for training and predicting using the Autoformer model. To create a virtual environment for these you should follow these steps:
+To use this codebase, you can clone this repository and run the scripts in the Scripts folder. The EDA_predict_LSTM.ipynb notebook contains the code for exploratory data analysis and LSTM training/prediction, while the predict_autoformer.ipynb notebook contains the code for training and predicting using the Autoformer model. To create a virtual environment for these you should follow these steps:  
 
-Open a terminal or command prompt and navigate to the directory where you want to create the virtual environment.
+- Open a terminal or command prompt and navigate to the directory where you want to create the virtual environment.
 
-Create a new virtual environment using the following command:
+- Create a new virtual environment using the following command:  
 `python -m venv myenv`
 
 This will create a new virtual environment named myenv.
 
-Activate the virtual environment using the appropriate command for your operating system:
+- Activate the virtual environment using the appropriate command for your operating system:
 
-- Windows: myenv\Scripts\activate.bat
-- macOS/Linux: source myenv/bin/activate
-Install the packages listed in the requirements.txt file using pip:
-`pip install -r requirements.txt`
+    - Windows: myenv\Scripts\activate.bat
+    - macOS/Linux: source myenv/bin/activate
+- Install the packages listed in the requirements.txt file using pip:  
+`pip install -r requirements.txt`  
+
+**Note** You will also have to install cuda if you have a GPU from: https://developer.nvidia.com/cuda-downloads
 
 This will install all the packages listed in the requirements.txt file into your virtual environment.
 
 You can now use the packages installed in your virtual environment by running your Python scripts while the virtual environment is activated.
 
-When you're done using the virtual environment, you can deactivate it using the following command:
+- When you're done using the virtual environment, you can deactivate it using the following command:  
 `deactivate`
 
 This will deactivate the virtual environment and return you to your normal shell.
